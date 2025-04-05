@@ -1,15 +1,14 @@
-import unittest
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from app import check_password_strength
 
-class TestPasswordStrength(unittest.TestCase):
-    def test_weak_password(self):
-        result = check_password_strength("123")
-        self.assertEqual(result["strength"], "weak")
+def test_weak_password():
+    result = check_password_strength("123")
+    assert result["strength"] == "weak"
 
-    def test_strong_password(self):
-        result = check_password_strength("S3cur3P@ss!")
-        self.assertEqual(result["strength"], "strong")
-
-if __name__ == '__main__':
-    unittest.main()
+def test_strong_password():
+    result = check_password_strength("S3cur3P@ss!")
+    assert result["strength"] == "strong"
 
