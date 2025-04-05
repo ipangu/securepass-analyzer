@@ -9,7 +9,7 @@
 **SecurePass Analyzer** 是一个开源密码强度检测工具，帮助用户检查密码是否安全。支持 **网页版、命令行工具（CLI）和 API**，适用于开发者和安全研究人员。  
 ---
 ## 🎯 项目功能
-- ✅ **密码强度检测**：基于长度、复杂度、熵值等指标的量化评估[<sup data-citation='{&quot;url&quot;:&quot;https://github.com/&quot;,&quot;title&quot;:&quot;GitHub · Build and ship software on a single, collaborative platform&quot;,&quot;content&quot;:&quot;Dismiss alert {{ message }} Build and ship software on a single, collaborative platform Join the world’s most widely adopted AI-powered developer platform. CodePlanCollaborateAutomateSecure Code Build code quickly and more securely with GitHub Copilot embedded throughout your workflows. GitHub is used by Pause Accelerate performance With GitHub Copilot embedded throughout the platform, you can simplify your toolchain, automate tasks, and improve the developer experience. Join the world’s most widely adopted AI-powered developer platform to build the technologies that redefine what’s possible.&quot;}'>4</sup>](https://github.com/)
+- ✅ **密码强度检测**：基于长度、复杂度、熵值等指标的量化评估
 - 🔍 **弱密码识别**：比对常见弱密码库和模式规则（如连续字符、重复序列）
 - 🛡 **泄露风险检查**：可选集成[HIBP](https://haveibeenpwned.com/API)API检测密码是否已泄露
 - 📊 **可视化报告**：生成详细的安全评分和改进建议（支持JSON/HTML格式）
@@ -55,9 +55,9 @@ apis:
 ```
 ---
 ## 🤝 如何贡献
-我们欢迎所有形式的贡献！[[1][4]]
+我们欢迎所有形式的贡献！
 1. 提交Issue报告问题或建议
-2. Fork项目并创建Pull Request [[2]]
+2. Fork项目并创建Pull Request
 3. 完善文档或翻译多语言版本
 4. 分享项目给需要的人⭐️
 📌 贡献前请阅读[CONTRIBUTING.md](CONTRIBUTING.md)
@@ -66,5 +66,5 @@ apis:
 本项目采用 [MIT License](LICENSE)
 ---
 > ⚠️ **免责声明**：本工具仅用于教育目的，开发者不对密码安全检测结果承担法律责任
-> 📧 联系维护者：ipangu@example.com | 💬 提交反馈：[Issues](https://github.com/ipangu/securepass-analyzer/issues)
-```
+> 📧 联系维护者：ipangu@apangu.com
+>  💬 提交反馈：[Issues](https://github.com/ipangu/securepass-analyzer/issues) 
