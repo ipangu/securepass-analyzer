@@ -1,1 +1,4 @@
+body { font-family: Arial; text-align: center; margin-top: 50px; }
+input { padding: 8px; width: 300px; }
+button { padding: 8px 15px; background: #007BFF; color: white; border: none; }
 
