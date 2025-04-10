@@ -59,7 +59,7 @@ apis:
 1. 提交Issue报告问题或建议
 2. Fork项目并创建Pull Request
 3. 完善文档或翻译多语言版本
-4. 分享项目给需要的人⭐️
+4. 分享项目给更多需要的人⭐️
 📌 贡献前请阅读[CONTRIBUTING.md](CONTRIBUTING.md)
 ---
 ## 📜 许可证
